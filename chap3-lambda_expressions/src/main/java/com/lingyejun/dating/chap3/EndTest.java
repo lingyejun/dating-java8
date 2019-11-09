@@ -36,7 +36,6 @@ public class EndTest {
         phoneList.sort((phone1, phone2) -> phone1.getPrice().compareTo(phone2.getPrice()));
 
         phoneList.sort(Comparator.comparing((phone -> phone.getPrice())));
-        
         // 4.方法引用
         phoneList.sort(Comparator.comparing((Phone::getPrice)));
     }
