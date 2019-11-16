@@ -14,6 +14,7 @@
         <module>chap2-behavior_parameterization</module>
         <module>chap3-lambda_expressions</module>
         <module>chap4-introducing_streams</module>
+        <module>chap5-working_with_streams</module>
     </modules>
 
     <build>
