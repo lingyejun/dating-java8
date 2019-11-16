@@ -19,11 +19,13 @@ public class PhoneMain {
      */
     public static List<Phone> initPhoneList() {
         List<Phone> phones = new ArrayList<>();
-        Phone phone1 = new Phone(1, "iPhone 11 Pro", "深空灰色", "64GB", 8699);
-        Phone phone2 = new Phone(2, "iPhone 11 Pro", "银色", "64GB", 8699);
+        Phone phone1 = new Phone(1, "iPhone 11 Pro", "银色", "64GB", 8699);
+        Phone phone2 = new Phone(2, "iPhone 11 Pro", "银色", "64GB", 8700);
+        Phone phone3 = new Phone(3, "iPhone 11 Pro Max", "银色", "64GB", 8900);
 
         phones.add(phone1);
         phones.add(phone2);
+        phones.add(phone3);
 
         return phones;
     }
