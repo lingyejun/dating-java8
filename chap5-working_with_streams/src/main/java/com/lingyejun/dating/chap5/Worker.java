@@ -78,4 +78,16 @@ public class Worker {
         this.carList = carList;
         this.houseList = houseList;
     }
+
+    @Override
+    public String toString() {
+        return "Worker{" +
+                "name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", isMarried=" + isMarried +
+                ", salary=" + salary +
+                ", carList=" + carList +
+                ", houseList=" + houseList +
+                '}';
+    }
 }

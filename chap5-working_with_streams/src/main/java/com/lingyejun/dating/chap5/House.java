@@ -21,4 +21,11 @@ public class House {
     public House(String address) {
         this.address = address;
     }
+
+    @Override
+    public String toString() {
+        return "House{" +
+                "address='" + address + '\'' +
+                '}';
+    }
 }
