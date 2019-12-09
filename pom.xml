@@ -16,6 +16,7 @@
         <module>chap4-introducing_streams</module>
         <module>chap5-working_with_streams</module>
         <module>chap6-collect_data_with_streams</module>
+        <module>chap10-new_date_and_time</module>
     </modules>
 
     <build>
