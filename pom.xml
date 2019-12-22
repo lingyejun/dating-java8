@@ -18,6 +18,7 @@
         <module>chap6-collect_data_with_streams</module>
         <module>chap7-parallel_data_processing</module>
         <module>chap10-new_date_and_time</module>
+        <module>chap9-optional_alternative_null</module>
     </modules>
 
     <build>
