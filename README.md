@@ -19,7 +19,7 @@
 | 目录 | 课程内容 | 视频回看 | 代码位置 | 
 |:-----:|:--------|:-------|:-------|
 | E01 | [通过行为参数化传递代码]() | [哔哩哔哩](https://www.bilibili.com/video/av74073231) &brvbar; [Youtube](https://www.youtube.com/watch?v=p0Nc3y9dfSc)| [behavior-parameterization](https://github.com/lingyejun/dating-java8/tree/master/chap2-behavior_parameterization) |
-| E02 | [Lambda表达式和函数式接口-上](https://www.youtube.com/watch?v=zPpm6A-inMQ) | [哔哩哔哩](https://www.bilibili.com/video/av74218060) &brvbar; [Youtube]()| [lambda-expressions](https://github.com/lingyejun/dating-java8/tree/master/chap3-lambda_expressions) |
+| E02 | [Lambda表达式和函数式接口-上](https://www.youtube.com/watch?v=zPpm6A-inMQ) | [哔哩哔哩](https://www.bilibili.com/video/av74218060) &brvbar; [Youtube](https://www.youtube.com/watch?v=zPpm6A-inMQ)| [lambda-expressions](https://github.com/lingyejun/dating-java8/tree/master/chap3-lambda_expressions) |
 | E03 | [Lambda表达式和函数式接口-下]() | [哔哩哔哩](https://www.bilibili.com/video/av74294515) &brvbar; [Youtube](https://www.youtube.com/watch?v=zWSQjqSAFfs)| [lambda-expressions](https://github.com/lingyejun/dating-java8/tree/master/chap3-lambda_expressions) |
 | E04 | [介绍和引入流的概念]() | [哔哩哔哩](https://www.bilibili.com/video/av75244629) &brvbar; [Youtube](https://www.youtube.com/watch?v=VqyBsRopV1g)| [introducing-streams](https://github.com/lingyejun/dating-java8/tree/master/chap4-introducing_streams) |
 | E05 | [使用流]() | [哔哩哔哩](https://www.bilibili.com/video/av75927924) &brvbar; [Youtube](https://www.youtube.com/watch?v=XHXvuXQswUo)| [working-with-streams](https://github.com/lingyejun/dating-java8/tree/master/chap5-working_with_streams) |
