@@ -105,5 +105,14 @@ public class CollectDataWithStreams {
         // 按工资分水岭1w进行分区
         Map<Boolean,List<String>> par2 = workerList.stream().collect(partitioningBy(worker -> worker.getSalary() > 10000, mapping(Worker::getName, toList())));
         System.out.println(par2);
+
+        Comparator<Worker> byName = Comparator.comparing(Worker::getName,Comparator.nullsFirst(Comparator.naturalOrder()));
+        Comparator<Worker> bySex = Comparator.comparing(Worker::getSex);
+
+        Comparator<Worker> comparator3 = bySex.thenComparing(byName);
+
+        List<Worker> list = workerList.stream().sorted(comparator3).collect(Collectors.toList());
+        System.out.println(list);
+
     }
 }

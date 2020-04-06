@@ -108,6 +108,24 @@ public class PhoneMain {
     }
 
     /**
+     * 按颜色过滤
+     *
+     * @param phoneList
+     * @param color
+     * @return
+     */
+    public static List<Phone> filterPhoneListByColor(List<Phone> phoneList, String color) {
+        List<Phone> filteredPhones = new ArrayList<>();
+
+        for (Phone phone : phoneList) {
+            if (Objects.equals(color, phone.getColor())) {
+                filteredPhones.add(phone);
+            }
+        }
+        return filteredPhones;
+    }
+
+    /**
      * 按价格过滤
      *
      * @param phoneList

@@ -16,7 +16,7 @@ public class ParallelMain {
 
 
     public static void main(String[] args) {
-        /*Long start = Instant.now().toEpochMilli();
+        Long start = Instant.now().toEpochMilli();
         // 求0-10000000所有数据的和
         Long sum = 0L;
         for (long i = 0; i <= 10000000000L; i++) {
@@ -45,19 +45,6 @@ public class ParallelMain {
         System.out.println(sum2);
 
         Long end2 = Instant.now().toEpochMilli();
-        System.out.println("java8 parallel 并行执行 耗费时间：" + (end2 - start2));*/
-
-        // 单个任务处理的时间很长，那么也是需要拆成子任务执行去提高效率
-        Long start3 = Instant.now().toEpochMilli();
-
-        ForkJoinPool forkJoinPool = new ForkJoinPool();
-
-        List<String> sendList = new ArrayList<>();
-        LongStream.rangeClosed(1, 10000).forEach(number -> sendList.add(String.valueOf(number)));
-        forkJoinPool.invoke(new SendSmsTask(sendList, "123"));
-
-        Long end3 = Instant.now().toEpochMilli();
-
-        System.out.println("fork join 并行执行 耗费时间：" + (end3 - start3));
+        System.out.println("java8 parallel 并行执行 耗费时间：" + (end2 - start2));
     }
 }

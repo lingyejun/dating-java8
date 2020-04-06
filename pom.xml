@@ -20,6 +20,7 @@
         <module>chap9-optional_alternative_null</module>
         <module>chap8-default_methods</module>
         <module>chap10-new_date_and_time</module>
+        <module>chap11-classic_case_in_work</module>
     </modules>
 
     <build>
